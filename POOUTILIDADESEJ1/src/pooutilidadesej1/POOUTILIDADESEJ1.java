@@ -31,14 +31,14 @@ public class POOUTILIDADESEJ1 {
         System.out.println("La frase invertida es : " + cs1.invertirFrase(c1));
         System.out.println("Ingrese la letra a buscar si se repite");
         L = leer.next();
-        System.out.println("La cantidad de veces que el caracter " + S + " se repite es: " + cs1.vecesRepetido(c1, L));
+        System.out.println("La cantidad de veces que el caracter " + L + " se repite es: " + cs1.vecesRepetido(c1, L));
         System.out.println("Ingrese una frase a comparar:");
         String fr1=leer.next();
         cs1.compararLongitud(c1, fr1);        
         System.out.println("Ingrese una frase a concatenar");
         String fr2=leer.next();
         System.out.println("Las frases concatenadas quedan: " + cs1.unirFrases(c1, fr2));
-        System.out.println("Ingrese el caracter repetido");
+        System.out.println("Ingrese el caracter a buscar");
         S = leer.next();
         System.out.println("La frase reemplazada con el caracter " + S + " es : " + cs1.reemplazar(c1, S));
         System.out.println("Ingrese un caracter a buscar");

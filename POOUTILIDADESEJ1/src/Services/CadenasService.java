@@ -26,7 +26,7 @@ public class CadenasService {
         for (int i = 0; i < c1.getLongitud(); i++) {
             if (c1.getCadena().substring(i, i + 1).equalsIgnoreCase("a") || c1.getCadena().substring(i, i + 1).equalsIgnoreCase("e") || c1.getCadena().substring(i, i + 1).equalsIgnoreCase("i") || c1.getCadena().substring(i, i + 1).equalsIgnoreCase("o") || c1.getCadena().substring(i, i + 1).equalsIgnoreCase("u")) {
                 c++;
-
+                    
             }
         }
         return c;
@@ -66,7 +66,7 @@ public class CadenasService {
 
     public String unirFrases(Cadena c1, String Fr1) {
         String aux;
-        aux = c1.getCadena().concat(" "+Fr1);
+        aux = c1.getCadena().concat(" " + Fr1);
         return aux;
     }
 
