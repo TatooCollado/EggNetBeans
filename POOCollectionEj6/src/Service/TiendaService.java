@@ -12,10 +12,11 @@ import java.util.Scanner;
 public class TiendaService {
 
     Scanner leer = new Scanner(System.in).useDelimiter("\n");
-    HashMap<String, Integer> T1 = new HashMap();
+    //HashMap<String, Integer> T1 = new HashMap();
 
     public HashMap<String, Integer> crearArticulo() {
         String aux = "";
+        HashMap<String, Integer> T1 = new HashMap();
         //Integer num = 0;
         do {
             Tienda tienda = new Tienda();
@@ -34,7 +35,7 @@ public class TiendaService {
         return T1;
     }
 
-    public void menu() {
+    public void menu(HashMap<String, Integer> T1) {
         int resp = 0;
         boolean ban = false;
 

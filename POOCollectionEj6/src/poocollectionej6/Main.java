@@ -25,7 +25,7 @@ public class Main {
     public static void main(String[] args) {
         TiendaService ts1 = new TiendaService();
         HashMap<String, Integer> t = ts1.crearArticulo();
-        ts1.menu();
+        ts1.menu(t);
     }
     
 }
